@@ -1,0 +1,12 @@
+.form {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 25px 20px;
+}
+.form .warning {
+    align-items: center;
+    background: #eef2fe;
+    border-radius: 1px;
+    display: flex;
+    padding: 10px;
+}

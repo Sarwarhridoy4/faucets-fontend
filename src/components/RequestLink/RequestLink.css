@@ -1,0 +1,18 @@
+.main_content .title {
+    margin: 48px 0;
+}
+
+.main_content .title h2 {
+    color: #9b1fe9;
+    font-family: Varela Round, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px !important;
+}
+
+.main_content .title p {
+    color: #6d7380;
+    font-size: 16px;
+    line-height: 25px;
+    width: auto;
+}
