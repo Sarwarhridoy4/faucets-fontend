@@ -1,6 +1,16 @@
+import Footer from "./components/Footer/Footer"
+import Navbar from "./components/Navbar/Navbar"
+import Notice from "./components/Notice/Notice"
+import RequestLink from "./components/RequestLink/RequestLink"
+
 const App = () => {
   return (
-    <div className="text-4xl">Tailwind-css installed</div>
+    <div>
+      <Navbar />
+      <Notice />
+      <RequestLink/>
+      <Footer/>
+    </div>
   )
 }
 
