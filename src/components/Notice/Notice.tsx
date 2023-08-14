@@ -1,8 +1,9 @@
+import "./Notice.css"
 const Notice = () => {
   return (
-    <div>
-      <div>
-        <p>
+    <div className="notice_board">
+      <div className="container">
+        <p className="text-center text-white">
           Notice here
         </p>
       </div>
