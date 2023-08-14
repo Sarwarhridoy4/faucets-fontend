@@ -1,8 +1,8 @@
 const Notice = () => {
   return (
-    <div className='w-full bg-[#9b1fe9] py-3'>
-      <div className='container'>
-        <p className="text-center text-white">
+    <div>
+      <div>
+        <p>
           Notice here
         </p>
       </div>
