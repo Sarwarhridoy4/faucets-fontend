@@ -5,7 +5,7 @@ import RequestLink from "./components/RequestLink/RequestLink"
 
 const App = () => {
   return (
-    <div>
+    <div className="font-Varela font-normal">
       <Navbar />
       <Notice />
       <RequestLink/>
