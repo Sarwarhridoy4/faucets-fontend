@@ -1,4 +1,5 @@
 import Alert from "../Alert/Alert";
+import RequestHistory from "../RequestHistory/RequestHistory";
 import "./SubmitForm.css";
 const SubmitForm = () => {
   return (
@@ -55,6 +56,7 @@ const SubmitForm = () => {
           </div>
           <div className='col d-none d-lg-block'></div>
         </div>
+        <RequestHistory />
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
 
-import RequestHistory from "./RequestHistory/RequestHistory";
 import SubmitForm from "./SubmitForm/SubmitForm";
 import "./RequestLink.css"
 const RequestLink = () => {
@@ -16,7 +15,7 @@ const RequestLink = () => {
       </div>
       </div>
       <SubmitForm />
-      <RequestHistory />
+      
     </div>
   );
 };
