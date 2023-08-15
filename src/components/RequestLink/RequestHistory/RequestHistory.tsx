@@ -8,13 +8,13 @@ const RequestHistory = () => {
       <div className='tabs d-flex d-lg-block'>
         <span
           onClick={() => setName("eth")}
-          className={name === "eth" && "active_tabs"}
+          className={name === "eth" ? "active_tabs":""}
         >
           ETH Transaction History
         </span>
         <span
           onClick={() => setName("testLink")}
-          className={name === "testLink" && "active_tabs"}
+          className={name === "testLink" ? "active_tabs":""}
         >
           TestLink Transaction History
         </span>
