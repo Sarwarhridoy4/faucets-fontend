@@ -1,0 +1,98 @@
+.header {
+    border-bottom: 1px solid #eee;
+    font-family: Varela Round, sans-serif;
+    padding: 18px 0;
+}
+
+.header .header_Container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .container .header_Container .logo h2 {
+    color: #9b1fe9;
+    font-family: Varela Round, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.logo a {
+    color: #9b1fe9;
+    text-decoration: none;
+}
+
+.networks,
+.right_content {
+    align-items: center;
+    display: flex;
+}
+
+.networkList {
+    position: relative;
+}
+
+.network_State {
+    border: 1px solid #ddd;
+    background: #ffffff;
+    border-radius: 3px;
+    color: #6d7380;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    padding: 10px 12px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.networksImg {
+    height: 15px;
+    margin-bottom: -2px;
+    margin-right: 8px;
+    width: 15px;
+}
+
+.connectButton {
+    background: transparent;
+    border: 2px solid #9b1fe9;
+    border-radius: 3px;
+    color: #9b1fe9;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 9px 20px;
+    text-transform: capitalize;
+}
+
+element.style {}
+
+.icon {
+    background-color: #eee;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px -9px #6d7380;
+    color: #000;
+    height: 30px;
+    justify-content: center;
+    padding: 5px;
+    width: 30px;
+}
+
+.connectButton,
+.icon {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    margin-left: 10px;
+}
+
+.icon {
+    background-color: #eee;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px -9px #6d7380;
+    color: #000;
+    height: 30px;
+    justify-content: center;
+    padding: 5px;
+    width: 30px;
+}
