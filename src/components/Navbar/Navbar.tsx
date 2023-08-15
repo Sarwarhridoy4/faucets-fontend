@@ -1,8 +1,8 @@
 import "./Navbar.css";
 import faucets from "../../assets/faucets.webp";
-import dropdown from "../../assets/dropdown.svg";
 import user from "../../assets/user.svg";
 import wallet from "../../assets/wallet.svg";
+import { AiOutlineDown } from 'react-icons/ai';
 const Navigation = () => {
   return (
     <nav className='header bg-white'>
@@ -22,7 +22,7 @@ const Navigation = () => {
                     <span id='smallText' className="d-none d-lg-inline">Ethereum Kovan</span>
                   </p>
                   <span>
-                    <img src={dropdown} alt='drop-icon' />
+                  <AiOutlineDown/>
                   </span>
                 </div>
               </div>
